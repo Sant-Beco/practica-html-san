@@ -1,0 +1,23 @@
+*{
+  color: #776b04;
+  background: #f4d993;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.menu-div{
+  width: 1000vh;
+  height: 30px;
+  background: #000;
+}
+
+.menu-a{
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  margin: 18px; 
+  padding: 6px;
+}
+

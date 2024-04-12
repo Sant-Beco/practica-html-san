@@ -1,0 +1,80 @@
+*{
+    background: #04012c;
+    color: #fff;
+}
+
+li {
+    background-color: #9b9292;
+    color: #5e060a;
+  }
+
+.seasons h4 {
+  background-color: yellowgreen;
+}
+
+.seasons li:first-child {
+  background-color: #a82323;
+}
+
+.seasons li:last-child {
+  background-color: #12a512;
+}
+
+.seasons li:nth-child(3) {
+  background-color: rgb(7, 196, 186);
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+  }
+  
+.col {
+  border: thin solid black;
+  padding: 1rem;
+}
+
+a{
+  color: #000000;
+  font-size: 18px;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+a:hover{
+  color: #20c4ae;
+}
+
+.imagen-eti{
+  margin: 12px;
+}
+
+.img-principal{
+  width: 210vh;
+  height: 100vh;
+}
+
+video{
+  width: 900px;
+}
+
+  /* Flex */
+
+.div{
+    background: #20c4ae;
+    margin: 20px 20px 0 20px;
+    width: 400px;
+    height: 400px;
+}
+
+.contenedor{
+    display: inline-flex; 
+    justify-content: center;
+}
+
+.img-flex{
+    width: 390px;
+    height: 390px;
+}
